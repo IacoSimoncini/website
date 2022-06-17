@@ -1,0 +1,31 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding-top: 20vh;
+  padding-bottom: 20vh;
+  overflow: hidden;
+  display: block;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+div.image {
+  width:500px; /*width of your image*/
+  height:500px; /*height of your image*/
+  background-image:url('../images/image.jpg');
+  margin-left: auto; /* If you want no margin */
+  margin-right: auto;
+  align-items: center;
+  justify-content: center;
+  padding:0; /*if your want to padding */
+}
